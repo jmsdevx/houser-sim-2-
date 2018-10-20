@@ -1,32 +1,35 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-weight: lighter;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.dashbody {
+  width: 50vw;
+  height: 150vh;
+  background-color: #e5f4ec;
+  margin: 0 auto;
+}
+.dashnav {
+  display: flex;
+  flex-direction: row;
+  height: 15vh;
+  justify-content: space-between;
+  padding: 3vw;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.listing {
+  height: 30vh;
+  width: 49vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#housebuttons {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  justify-content: space-around;
+  padding: 0px 0px 15vh 0px;
 }
